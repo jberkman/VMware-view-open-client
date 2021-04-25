@@ -1,0 +1,1532 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 软件包版本\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-13 19:44-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO：MI+ZONE\n"
+"Last-Translator: 完整名称<EMAIL@ADDRESS>\n"
+"Language-Team: 语言<LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../baseApp.cc:249
+#, c-format
+msgid "Using log file %s\n"
+msgstr "使用日志文件 %s\n"
+
+#: ../baseXml.cc:302
+#: ../baseXml.cc:360
+#: ../baseXml.cc:759
+msgid "Invalid response"
+msgstr "无效响应"
+
+#: ../baseXml.cc:303
+msgid "Invalid \"result\" in XML."
+msgstr "XML 中的“结果”无效。"
+
+#: ../baseXml.cc:325
+#, c-format
+msgid "Unknown error: %s"
+msgstr "未知错误：%s"
+
+#: ../baseXml.cc:361
+msgid "Parameter with no name."
+msgstr "无名参数。"
+
+#: ../baseXml.cc:381
+#, c-format
+msgid "Invalid response: Parameter \"%s\" has no value."
+msgstr "无效响应：参数“%s”没有值。"
+
+#: ../baseXml.cc:525
+msgid "Unsupported protocol"
+msgstr "不支持的协议"
+
+#: ../baseXml.cc:527
+msgid "Invalid URL"
+msgstr "无效的 URL"
+
+#: ../baseXml.cc:529
+msgid "The proxy could not be resolved"
+msgstr "无法解析代理"
+
+#: ../baseXml.cc:531
+msgid "The host could not be resolved"
+msgstr "无法解析主机"
+
+#: ../baseXml.cc:533
+#: ../extraTranslations.hh:50
+msgid "Could not connect to server"
+msgstr "无法连接到服务器"
+
+#: ../baseXml.cc:535
+#, c-format
+msgid "HTTP error %d"
+msgstr "HTTP 错误 %d"
+
+#: ../baseXml.cc:537
+msgid "Connection timed out"
+msgstr "连接超时"
+
+#: ../baseXml.cc:539
+msgid "SSL connection error"
+msgstr "SSL 连接错误"
+
+#: ../baseXml.cc:541
+msgid "Too many redirects"
+msgstr "重定向太多"
+
+#: ../baseXml.cc:545
+msgid "Transfer error"
+msgstr "传输出错"
+
+#: ../baseXml.cc:547
+msgid "SSL security error"
+msgstr "SSL 安全性错误"
+
+#: ../baseXml.cc:552
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: ../baseXml.cc:560
+msgid "The View Connection Server connection failed."
+msgstr "View Connection Server 连接失败。"
+
+#: ../baseXml.cc:561
+#, c-format
+msgid "%s.\n"
+"\n"
+"Verify that the view connection server address, port, network settings, and "
+"SSL settings are correct and try again."
+msgstr "%s.\n"
+"\n"
+"请验证 View Connection Server 地址、端口、网络设置和 "
+"SSL 设置是否正确，然后重试。"
+
+#: ../baseXml.cc:760
+msgid "General error."
+msgstr "常规错误。"
+
+#: ../baseXml.cc:784
+#: ../baseXml.cc:825
+#, c-format
+msgid "Invalid response: Unknown response \"%s\"."
+msgstr "无效响应：未知响应“%s”。"
+
+#: ../baseXml.cc:810
+#, c-format
+msgid "Unable to save command text for %s."
+msgstr "无法保存 %s 的命令文本。"
+
+#: ../baseXml.cc:842
+#, c-format
+msgid "The server \"%s\" may not be a compatible View Connection Server. Check the "
+"server address and try again."
+msgstr "服务器“%s”可能不是兼容的 View Connection Server。请检查服务器地址并重试。"
+
+#: ../baseXml.cc:946
+msgid "Request cancelled by user."
+msgstr "请求被用户取消。"
+
+#: ../broker.cc:555
+#: ../gtk/window.cc:2069
+msgid "Connecting to the desktop..."
+msgstr "正在连接到桌面..."
+
+#: ../broker.cc:921
+msgid "Unknown result returned"
+msgstr "返回未知结果"
+
+#: ../broker.cc:939
+#: ../broker.cc:1479
+msgid "Error authenticating"
+msgstr "身份验证错误"
+
+#: ../broker.cc:988
+msgid "Your new RSA SecurID PIN has been set"
+msgstr "您的新 RSA SecurID PIN 已设置"
+
+#: ../broker.cc:989
+msgid "Please wait for the next tokencode to appear on your RSA SecurID token, then "
+"continue."
+msgstr "请等待下一个令牌代码出现在您的 RSA SecurID 令牌上，然后再继续。"
+
+#: ../broker.cc:1023
+msgid "Unknown authentication method requested"
+msgstr "请求了未知的身份验证方法"
+
+#: ../broker.cc:1024
+#, c-format
+msgid "Received unknown request \"%s\" from the broker"
+msgstr "收到 Broker 的未知请求“%s”"
+
+#: ../broker.cc:1075
+msgid "Invalid response from server"
+msgstr "来自服务器的无效响应"
+
+#: ../broker.cc:1076
+msgid "Invalid PIN Change response sent by server."
+msgstr "服务器发送了无效的 PIN 更改响应。"
+
+#: ../broker.cc:1305
+#: ../broker.cc:1351
+msgid "You are not entitled to use the system."
+msgstr "您没有权限使用该系统。"
+
+#: ../broker.cc:1532
+msgid "An error occurred"
+msgstr "出现错误"
+
+#: ../brokerXml.cc:209
+#: ../brokerXml.cc:216
+#: ../brokerXml.cc:224
+#: ../brokerXml.cc:747
+msgid "Invalid response from broker"
+msgstr "来自 Broker 的无效响应"
+
+#: ../brokerXml.cc:210
+msgid "Invalid \"authentication\" in XML."
+msgstr "XML 中的“身份验证”无效。"
+
+#: ../brokerXml.cc:217
+msgid "Invalid \"screen\" in XML."
+msgstr "XML 中的“屏幕”无效。"
+
+#: ../brokerXml.cc:225
+msgid "Invalid \"name\" in XML."
+msgstr "XML 中的“名称”无效。"
+
+#: ../brokerXml.cc:748
+msgid "Listener with invalid host name."
+msgstr "带有无效主机名的侦听器。"
+
+#: ../cocoa/cdkAppController.m:101
+msgid "Additional Software Required"
+msgstr "需要附加的软件"
+
+#: ../cocoa/cdkAppController.m:102
+msgid "Download"
+msgstr "下载"
+
+#: ../cocoa/cdkAppController.m:103
+msgid "Quit"
+msgstr "退出"
+
+#: ../cocoa/cdkAppController.m:106
+msgid "Microsoft Remote Desktop Connection Client 2 is required to connect to your "
+"VMware View desktops. Would you like to download it now?"
+msgstr "需要使用 Microsoft 远程桌面连接客户端 2 来连接您的 VMware View 桌面。是否立即下载？"
+
+#: ../cocoa/cdkPrefs.m:138
+#, c-format
+msgid "Could not load RDC template data: %s.\n"
+msgstr "无法加载 RDC 模板数据：%s。\n"
+
+#: ../cocoa/cdkPrefs.m:149
+#, c-format
+msgid "Could not parse RDC template data: %s.\n"
+msgstr "无法解析 RDC 模板数据：%s。\n"
+
+#: ../cocoa/cdkRdc.m:265
+#, c-format
+msgid "Could not serialize RDC data: %s.\n"
+msgstr "无法序列化 RDC 数据：%s。\n"
+
+#: ../cocoa/cdkRdc.m:272
+#, c-format
+msgid "Could not write RDC data: %s.\n"
+msgstr "无法写入 RDC 数据：%s。\n"
+
+#: ../cocoa/cdkRdc.m:357
+msgid "Microsoft Remote Desktop Connection 2 could not be found.\n"
+msgstr "无法找到 Microsoft 远程桌面连接 2。\n"
+
+#: ../cocoa/cdkWindowController.m:256
+#, c-format
+msgid "About %s"
+msgstr "关于 %s"
+
+#: ../cocoa/cdkWindowController.m:258
+#, c-format
+msgid "Hide %s"
+msgstr "隐藏 %s"
+
+#: ../cocoa/cdkWindowController.m:260
+#, c-format
+msgid "Quit %s"
+msgstr "退出 %s"
+
+#: ../cocoa/cdkWindowController.m:262
+#, c-format
+msgid "%s Help"
+msgstr "%s 帮助"
+
+#: ../cocoa/cdkWindowController.m:297
+#: ../gtk/window.cc:1305
+msgid "Initializing connection..."
+msgstr "正在初始化连接..."
+
+#: ../cocoa/cdkWindowController.m:304
+#: ../gtk/window.cc:1398
+msgid "Accepting disclaimer..."
+msgstr "正在接受免责声明..."
+
+#: ../cocoa/cdkWindowController.m:309
+#: ../cocoa/cdkWindowController.m:316
+#: ../cocoa/cdkWindowController.m:338
+msgid "Authenticating..."
+msgstr "正在进行身份验证..."
+
+#: ../cocoa/cdkWindowController.m:322
+#: ../cocoa/cdkWindowController.m:329
+#: ../gtk/window.cc:1579
+msgid "Changing PIN..."
+msgstr "正在更改 PIN..."
+
+#: ../cocoa/cdkWindowController.m:348
+#: ../gtk/window.cc:1656
+msgid "Changing password..."
+msgstr "正在更改密码..."
+
+#: ../cocoa/cdkWindowController.m:355
+#: ../gtk/window.cc:2864
+msgid "Connecting to desktop..."
+msgstr "正在连接桌面..."
+
+#: ../cocoa/cdkWindowController.m:721
+msgid "Enter a new RSA Securid PIN."
+msgstr "输入一个新的 RSA SecurID PIN。"
+
+#: ../cocoa/cdkWindowController.m:724
+msgid "Enter a new RSA SecurID PIN or accept the default."
+msgstr "输入新的 RSA SecurID PIN 或者接受默认值。"
+
+#: ../cocoa/cdkWindowController.m:725
+msgid "Accept the default RSA SecurID PIN."
+msgstr "接受默认的 RSA SecurID PIN。"
+
+#: ../cocoa/cdkWindowController.m:935
+msgid "You have been disconnected"
+msgstr "您已经断开连接"
+
+#: ../cocoa/cdkWindowController.m:936
+#: ../gtk/window.cc:2876
+msgid "The desktop has unexpectedly disconnected."
+msgstr "桌面意外断开连接。"
+
+#: ../cocoa/cdkWindowController.m:1115
+#: ../gtk/window.cc:1743
+msgid "The secure connection to the View Server has unexpectedly disconnected."
+msgstr "与 View Server 的安全连接意外断开。"
+
+#: ../cocoa/cdkWindowController.m:1118
+#: ../gtk/window.cc:1746
+msgid "The connection to the View Server has unexpectedly disconnected."
+msgstr "与 View Server 的连接意外断开。"
+
+#: ../cocoa/cdkWindowController.m:1242
+msgid "Cancel"
+msgstr "取消"
+
+#: ../cocoa/cdkWindowController.m:1249
+msgid "Choose an identity with which to log in."
+msgstr "选择一个用于登录的身份。"
+
+#: ../desktop.cc:315
+msgid "Unable to connect to desktop"
+msgstr "无法连接到桌面"
+
+#: ../desktop.cc:317
+#, c-format
+msgid "An error occurred while connecting to \"%s\": %s"
+msgstr "连接到“%s”时出错：%s"
+
+#: ../desktop.cc:408
+msgid "Unable to reset desktop"
+msgstr "无法重置桌面"
+
+#: ../desktop.cc:410
+#, c-format
+msgid "An error occured while attempting to reset \"%s\": %s"
+msgstr "尝试重置“%s”时出错：%s"
+
+#: ../desktop.cc:505
+msgid "Unable to log out"
+msgstr "无法注销"
+
+#: ../desktop.cc:507
+#, c-format
+msgid "An error occurred while trying to log out of \"%s\": %s"
+msgstr "尝试注销“%s”时出错：%s"
+
+#: ../desktop.cc:566
+msgid "Unable to rollback desktop"
+msgstr "无法回滚桌面"
+
+#: ../desktop.cc:568
+#, c-format
+msgid "An error occurred while attempting to rollback \"%s\": %s"
+msgstr "尝试回滚“%s”时出错：%s"
+
+#: ../desktop.cc:851
+msgid "connect to server to resume"
+msgstr "连接服务器以继续"
+
+#: ../desktop.cc:852
+msgid "select connect to resume"
+msgstr "选择“连接”继续"
+
+#: ../desktop.cc:856
+msgid "Resetting desktop"
+msgstr "正在重置桌面"
+
+#: ../desktop.cc:858
+msgid "Logging off"
+msgstr "正在注销"
+
+#: ../desktop.cc:860
+msgid "Rolling back checkout"
+msgstr "正在回滚检出"
+
+#: ../desktop.cc:862
+msgid "The desktop's local session is being rolled back"
+msgstr "桌面的本地会话正在回滚"
+
+#: ../desktop.cc:864
+msgid "Handling a local session rollback"
+msgstr "正在处理本地会话回滚"
+
+#: ../desktop.cc:866
+msgid "Desktop is corrupted"
+msgstr "桌面已损坏"
+
+#: ../desktop.cc:868
+msgid "Checked out to another machine"
+msgstr "检出到其他计算机"
+
+#: ../desktop.cc:870
+#, c-format
+msgid "Check in paused, %s"
+msgstr "检入暂停，%s"
+
+#: ../desktop.cc:873
+#, c-format
+msgid "Download paused, %s"
+msgstr "下载暂停，%s"
+
+#: ../desktop.cc:876
+#, c-format
+msgid "Download paused during initialization, %s"
+msgstr "下载在初始化时暂停，%s"
+
+#: ../desktop.cc:879
+msgid "Download paused at %"
+msgstr "下载过程在 % 处暂停"
+
+#: ../desktop.cc:886
+msgid "Discarding paused download"
+msgstr "正在放弃暂停的下载"
+
+#: ../desktop.cc:888
+msgid "Maintenance (may not be available)"
+msgstr "维护 (可能不可用)"
+
+#: ../desktop.cc:890
+msgid "Logged on"
+msgstr "已登录"
+
+#: ../desktop.cc:893
+#, c-format
+msgid "Requires download%s"
+msgstr "需要下载 %s"
+
+#: ../desktop.cc:896
+#: ../desktop.cc:899
+msgid "Available"
+msgstr "可用"
+
+#: ../desktop.cc:901
+msgid "Unavailable, contact administrator"
+msgstr "不可用，请联系管理员"
+
+#: ../desktop.cc:903
+msgid "The desktop has expired"
+msgstr "桌面已过期"
+
+#: ../desktop.cc:906
+msgid "Unknown status"
+msgstr "未知状态"
+
+#: ../extraTranslations.hh:36
+msgid "VMware View Client"
+msgstr "VMware View Client"
+
+#: ../extraTranslations.hh:37
+msgid "VMware View Open Client"
+msgstr "VMware View Open Client"
+
+#.
+#. * Message from the tunnel server are not translated; the ones we know
+#. * about are actually translated in cdk::Tunnel::OnErr().
+#.
+#: ../extraTranslations.hh:43
+msgid "Secure connection timed out"
+msgstr "安全连接超时"
+
+#: ../extraTranslations.hh:44
+msgid "The session has timed out, please re-authenticate"
+msgstr "会话已超时，请重新进行身份验证"
+
+#: ../extraTranslations.hh:45
+msgid "Session timed out"
+msgstr "会话超时"
+
+#: ../extraTranslations.hh:46
+msgid "Logout request by system"
+msgstr "系统发出注销请求"
+
+#: ../extraTranslations.hh:47
+msgid "Connection reset by peer"
+msgstr "连接被对等方重置"
+
+#: ../extraTranslations.hh:48
+msgid "connection attempt failed"
+msgstr "连接尝试失败"
+
+#: ../extraTranslations.hh:49
+msgid "Client disconnected following no activity"
+msgstr "由于没有任何活动，客户端已断开连接"
+
+#: ../extraTranslations.hh:51
+msgid "tunnel session not created"
+msgstr "未创建安全加密链路会话"
+
+#: ../gtk/app.cc:304
+#, c-format
+msgid "Could not find locale directory; falling back to %s\n"
+msgstr "无法找到区域设置目录；正在回滚到 %s\n"
+
+#: ../gtk/brokerDlg.cc:62
+msgid "_Port:"
+msgstr "端口(_P)："
+
+#: ../gtk/brokerDlg.cc:65
+msgid "_Use secure connection (SSL)"
+msgstr "使用安全连接 (SSL)(_U)"
+
+#: ../gtk/brokerDlg.cc:67
+msgid "_Always connect to this server at startup"
+msgstr "启动时总是连接到此服务器(_A)"
+
+#: ../gtk/brokerDlg.cc:80
+msgid "Enter the host name or IP address of the View Connection Server."
+msgstr "输入 View Connection Server 的主机名或 IP 地址。"
+
+#: ../gtk/brokerDlg.cc:87
+msgid "A_ddress:"
+msgstr "地址(_D)："
+
+#: ../gtk/brokerDlg.cc:110
+msgid "_Options"
+msgstr "选项(_O)"
+
+#: ../gtk/cryptoki.cc:243
+#, c-format
+msgid "No smart card sessions for your certificate could be found"
+msgstr "找不到与您的证书对应的智能卡会话"
+
+#: ../gtk/cryptoki.cc:1200
+#, c-format
+msgid "A PIN is required to unlock this smartcard or token."
+msgstr "需要用一个 PIN 来解锁该智能卡或令牌。"
+
+#: ../gtk/cryptoki.cc:1224
+#, c-format
+msgid "Please try entering your PIN again."
+msgstr "请再次尝试输入您的 PIN。"
+
+#: ../gtk/cryptoki.cc:1232
+#, c-format
+msgid "Your smart card or token has been removed."
+msgstr "您的智能卡或令牌已被移除。"
+
+#: ../gtk/cryptoki.cc:1237
+#, c-format
+msgid "There was an error logging in to your smart card or token.\n"
+"\n"
+"The error code was %#lx."
+msgstr "登录您的智能卡或令牌时出现错误。\n"
+"\n"
+"错误代码为 %#lx。"
+
+#: ../gtk/cryptoki.cc:1248
+#, c-format
+msgid "Your smart card or token has been locked.  Please contact your administrator "
+"to unlock it."
+msgstr "您的智能卡或令牌已被锁死。请联系您的管理员解除锁定。"
+
+#: ../gtk/cryptoki.cc:1254
+#, c-format
+msgid "An incorrect PIN entry will result in your smart card or token being locked."
+msgstr "输入错误的 PIN 将导致您的智能卡或令牌锁死。"
+
+#: ../gtk/desktopDlg.cc:574
+msgid "Inhibiting Ctrl-Alt-Enter keypress, to avoid rdesktop exit.\n"
+msgstr "禁用 Ctrl-Alt-Enter 组合键，防止 rdesktop 退出。\n"
+
+#: ../gtk/desktopDlg.cc:782
+msgid "Metacity keybindings will be temporarily disabled on SLED 10 SP2.\n"
+msgstr "SLED 10 SP2 上的 Metacity 快捷键将被暂时禁用。\n"
+
+#: ../gtk/desktopSelectDlg.cc:107
+msgid "_Desktops:"
+msgstr "桌面(_D)："
+
+#: ../gtk/desktopSelectDlg.cc:217
+msgid "All Monitors"
+msgstr "所有显示器"
+
+#: ../gtk/desktopSelectDlg.cc:224
+msgid "Full Screen"
+msgstr "全屏"
+
+#: ../gtk/desktopSelectDlg.cc:231
+msgid "Large Window"
+msgstr "大窗口"
+
+#: ../gtk/desktopSelectDlg.cc:237
+msgid "Small Window"
+msgstr "小窗口"
+
+#: ../gtk/desktopSelectDlg.cc:250
+msgid "Custom..."
+msgstr "自定义..."
+
+#: ../gtk/desktopSelectDlg.cc:256
+msgid "D_isplay:"
+msgstr "显示(_I)："
+
+#: ../gtk/desktopSelectDlg.cc:718
+#: ../gtk/windowSizeDlg.cc:267
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../gtk/desktopSelectDlg.cc:777
+#, c-format
+msgid "Are you sure you want to reset %s?\n"
+"\n"
+"Any unsaved data may be lost."
+msgstr "是否要重置 %s？\n"
+"\n"
+"任何未保存的数据都可能丢失。"
+
+#: ../gtk/desktopSelectDlg.cc:779
+#: ../gtk/desktopSelectDlg.cc:1015
+#: ../gtk/window.cc:2767
+msgid "_Reset"
+msgstr "重置(_R)"
+
+#: ../gtk/desktopSelectDlg.cc:782
+#, c-format
+msgid "Are you sure you want to end your current session with %s?\n"
+"\n"
+"Any unsaved data may be lost."
+msgstr "确实要结束当前同 %s 的会话吗？\n"
+"\n"
+"任何未保存的数据都可能丢失。"
+
+#: ../gtk/desktopSelectDlg.cc:784
+#: ../gtk/desktopSelectDlg.cc:1004
+msgid "_Log Off"
+msgstr "注销(_L)"
+
+#: ../gtk/desktopSelectDlg.cc:787
+#, c-format
+msgid "Are you sure you want to rollback %s?\n"
+"\n"
+"Any changes made to the checked-out desktop on another machine since your "
+"last backup will be discarded."
+msgstr "确实要回滚 %s 吗？\n"
+"\n"
+"自上次备份起，在其他计算机上对检出桌面所做的任何更改都将丢失。"
+
+#: ../gtk/desktopSelectDlg.cc:790
+msgid "_Rollback"
+msgstr "回滚(_R)"
+
+#: ../gtk/desktopSelectDlg.cc:948
+#: ../gtk/window.cc:735
+#: ../gtk/window.cc:859
+#: ../gtk/window.cc:891
+msgid "Co_nnect"
+msgstr "连接(_N)"
+
+#: ../gtk/desktopSelectDlg.cc:962
+msgid "_Protocols"
+msgstr "协议(_P)"
+
+#: ../gtk/desktopSelectDlg.cc:1029
+msgid "Roll_back"
+msgstr "回滚(_B)"
+
+#: ../gtk/helpSupportDlg.cc:130
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../gtk/helpSupportDlg.cc:134
+msgid "_Support Information"
+msgstr "支持信息(_S)"
+
+#: ../gtk/helpSupportDlg.cc:245
+#, c-format
+msgid "User help directory not found; falling back to %s.\n"
+msgstr "未找到用户帮助目录；正在回滚至 %s。\n"
+
+#: ../gtk/helpSupportDlg.cc:317
+#, c-format
+msgid "An error occurred while reading the help file: %s.\n"
+msgstr "读取帮助文件时发生错误：%s。\n"
+
+#: ../gtk/helpSupportDlg.cc:358
+msgid "Support Information"
+msgstr "支持信息"
+
+#: ../gtk/helpSupportDlg.cc:399
+msgid "Product Information"
+msgstr "产品信息"
+
+#: ../gtk/helpSupportDlg.cc:400
+msgid "Product:"
+msgstr "产品："
+
+#: ../gtk/helpSupportDlg.cc:401
+msgid "Version:"
+msgstr "版本："
+
+#: ../gtk/helpSupportDlg.cc:424
+msgid "Host Information"
+msgstr "主机信息"
+
+#: ../gtk/helpSupportDlg.cc:425
+msgid "Host Name:"
+msgstr "主机名称："
+
+#: ../gtk/helpSupportDlg.cc:427
+msgid "Log File:"
+msgstr "日志文件："
+
+#: ../gtk/helpSupportDlg.cc:451
+msgid "Connection Information"
+msgstr "连接信息"
+
+#: ../gtk/helpSupportDlg.cc:452
+msgid "VMware View Server:"
+msgstr "VMware View Server："
+
+#: ../gtk/helpSupportDlg.cc:621
+#, c-format
+msgid "An error occurred while reading the support file: %s.\n"
+msgstr "读取支持文件时出错：%s。\n"
+
+#: ../gtk/kioskWindow.cc:55
+msgid "Unattended Mode Error"
+msgstr "无人参与模式错误"
+
+#: ../gtk/kioskWindow.cc:108
+msgid "Unattended mode requires the connection server name to be provided.\n"
+msgstr "无人参与模式要求提供连接服务器名称。\n"
+
+#: ../gtk/kioskWindow.cc:152
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#: ../gtk/kioskWindow.cc:180
+#: ../gtk/window.cc:837
+#: ../gtk/window.cc:849
+#: ../gtk/window.cc:1454
+#: ../gtk/window.cc:1471
+#: ../gtk/window.cc:1621
+#: ../gtk/window.cc:2533
+msgid "Logging in..."
+msgstr "正在登录..."
+
+#: ../gtk/kioskWindow.cc:249
+#: ../gtk/kioskWindow.cc:267
+msgid "Desktop Not Available"
+msgstr "桌面不可用"
+
+#: ../gtk/kioskWindow.cc:250
+#, c-format
+msgid "No desktop for user '%s' on connection server '%s'."
+msgstr "用户“%s”在连接服务器“%s”上没有可用的桌面。"
+
+#: ../gtk/kioskWindow.cc:268
+#, c-format
+msgid "Desktop '%s' is not available from connection server '%s'."
+msgstr "桌面“%s”不通过连接服务器“%s”提供。"
+
+#: ../gtk/kioskWindow.cc:308
+msgid "Unexpected pass code request encountered."
+msgstr "遇到意外的通行码请求。"
+
+#: ../gtk/kioskWindow.cc:313
+msgid "Unexpected next token request encountered."
+msgstr "遇到意外的下一个令牌请求。"
+
+#: ../gtk/kioskWindow.cc:318
+msgid "Unexpected pin change request encountered."
+msgstr "遇到意外的 PIN 变更请求。"
+
+#: ../gtk/kioskWindow.cc:324
+msgid "Unexpected disclaimer request."
+msgstr "意外的声明请求。"
+
+#: ../gtk/kioskWindow.cc:329
+msgid "Unexpected password change request."
+msgstr "意外的密码变更请求。"
+
+#: ../gtk/kioskWindow.cc:400
+#, c-format
+msgid "\n"
+"\n"
+"Retrying in %d seconds..."
+msgstr "\n"
+"\n"
+"%d 秒后重试..."
+
+#: ../gtk/loginDlg.cc:72
+#: ../gtk/securIDDlg.cc:135
+msgid "_Username:"
+msgstr "用户名(_U)："
+
+#: ../gtk/loginDlg.cc:86
+msgid "_Password:"
+msgstr "密码(_P)："
+
+#: ../gtk/loginDlg.cc:101
+msgid "_Domain:"
+msgstr "域(_D)："
+
+#: ../gtk/passwordDlg.cc:74
+msgid "Username:"
+msgstr "用户名："
+
+#: ../gtk/passwordDlg.cc:84
+msgid "Domain:"
+msgstr "域："
+
+#: ../gtk/passwordDlg.cc:94
+msgid "Old _Password:"
+msgstr "旧密码(_P)："
+
+#: ../gtk/passwordDlg.cc:109
+msgid "_New Password:"
+msgstr "新密码(_N)："
+
+#: ../gtk/passwordDlg.cc:125
+msgid "Con_firm:"
+msgstr "确认(_F)："
+
+#: ../gtk/prefs.cc:228
+#: ../gtk/prefs.cc:244
+#, c-format
+msgid "Directory \"%s\" is not writable.\n"
+msgstr "目录“%s”不可写入。\n"
+
+#: ../gtk/prefs.cc:253
+#, c-format
+msgid "The path \"%s\" exists, but it is not a directory.\n"
+msgstr "路径“%s”已存在，但并不是目录。\n"
+
+#: ../gtk/prefs.cc:256
+#, c-format
+msgid "Cannot create directory \"%s\".\n"
+msgstr "无法创建目录“%s”。\n"
+
+#: ../gtk/prefs.cc:819
+msgid "Keep window manager key bindings (ignored by some remoting protocols)."
+msgstr "保留窗口管理器密钥绑定 (被某些远程协议忽略)。"
+
+#: ../gtk/prefs.cc:821
+msgid "Specify connection broker."
+msgstr "指定连接 Broker。"
+
+#: ../gtk/prefs.cc:821
+msgid "<broker URL>"
+msgstr "<broker URL>"
+
+#: ../gtk/prefs.cc:823
+msgid "Specify user name for password authentication."
+msgstr "为密码身份验证指定所需的用户名。"
+
+#: ../gtk/prefs.cc:823
+msgid "<user name>"
+msgstr "<用户名>"
+
+#: ../gtk/prefs.cc:825
+msgid "Specify password for password authentication."
+msgstr "为密码身份验证指定所需的密码。"
+
+#: ../gtk/prefs.cc:825
+msgid "<password>"
+msgstr "<密码>"
+
+#: ../gtk/prefs.cc:827
+msgid "Specify domain for password authentication."
+msgstr "为密码身份验证指定所需的域。"
+
+#: ../gtk/prefs.cc:827
+msgid "<domain name>"
+msgstr "<域名>"
+
+#: ../gtk/prefs.cc:829
+msgid "Specify desktop by name."
+msgstr "按名称指定桌面。"
+
+#: ../gtk/prefs.cc:829
+msgid "<desktop name>"
+msgstr "<桌面名称>"
+
+#: ../gtk/prefs.cc:831
+msgid "Connect automatically if enough values are given on the command line."
+msgstr "如果命令行中给出了足够的值，就会自动连接。"
+
+#: ../gtk/prefs.cc:834
+msgid "Enable full screen mode."
+msgstr "启用全屏模式。"
+
+#: ../gtk/prefs.cc:836
+msgid "Image file to use as background in full screen mode."
+msgstr "作为全屏模式下桌面背景的图像文件。"
+
+#: ../gtk/prefs.cc:836
+#: ../gtk/prefs.cc:840
+msgid "<image>"
+msgstr "<图像>"
+
+#: ../gtk/prefs.cc:838
+msgid "Forward device redirection to rdesktop"
+msgstr "将设备重定向转发到 rdesktop"
+
+#: ../gtk/prefs.cc:838
+msgid "<device info>"
+msgstr "<设备信息>"
+
+#: ../gtk/prefs.cc:840
+msgid "Display a custom logo."
+msgstr "显示一个自定义徽标。"
+
+#: ../gtk/prefs.cc:842
+msgid "Directory location containing Wyse MMR libraries."
+msgstr "包含 Wyse MMR 库的目录位置。"
+
+#: ../gtk/prefs.cc:843
+msgid "<mmr directory>"
+msgstr "<mmr 目录>"
+
+#: ../gtk/prefs.cc:845
+msgid "Command line options to forward to rdesktop."
+msgstr "转发至 rdesktop 的命令行选项。"
+
+#: ../gtk/prefs.cc:846
+msgid "<rdesktop options>"
+msgstr "<rdesktop 选项>"
+
+#: ../gtk/prefs.cc:848
+msgid "Path to file containing support contents."
+msgstr "包含支持内容的文件的路径。"
+
+#: ../gtk/prefs.cc:848
+msgid "<support file>"
+msgstr "<支持文件>"
+
+#: ../gtk/prefs.cc:850
+msgid "Options for USB forwarding."
+msgstr "USB 转发选项。"
+
+#: ../gtk/prefs.cc:850
+msgid "<usb options>"
+msgstr "<usb 选项>"
+
+#: ../gtk/prefs.cc:852
+msgid "Preferred connection protocol [RDP|PCOIP|RGS|localvm]"
+msgstr "首选连接协议 [RDP|PCOIP|RGS|localvm]"
+
+#: ../gtk/prefs.cc:853
+msgid "<protocol name>"
+msgstr "<协议名称>"
+
+#: ../gtk/prefs.cc:855
+msgid "Enable unattended (kiosk) mode."
+msgstr "启用无人参与 (kiosk) 模式。"
+
+#: ../gtk/prefs.cc:857
+msgid "Print environment information."
+msgstr "打印环境信息。"
+
+#: ../gtk/prefs.cc:859
+msgid "Do not retry on error events in unattended mode."
+msgstr "在无人参与模式下发生错误事件时，不要重试。"
+
+#: ../gtk/prefs.cc:861
+msgid "Initial keyboard layout locale (en-us, de, fr, etc...)"
+msgstr "初始键盘布局区域设置（en-us、de、fr 等...）"
+
+#: ../gtk/prefs.cc:862
+msgid "<kbdlayout name>"
+msgstr "<键盘布局名称>"
+
+#: ../gtk/prefs.cc:868
+msgid "File containing additional command line arguments."
+msgstr "包含附加命令行参数的文件。"
+
+#: ../gtk/prefs.cc:869
+msgid "<file path>"
+msgstr "<文件路径>"
+
+#: ../gtk/prefs.cc:871
+msgid "Display version information and exit."
+msgstr "显示版本信息并退出。"
+
+#: ../gtk/prefs.cc:878
+#: ../gtk/prefs.cc:953
+msgid "- connect to VMware View desktops"
+msgstr "- 连接到 VMware View 桌面"
+
+#: ../gtk/prefs.cc:893
+#: ../gtk/prefs.cc:973
+#, c-format
+msgid "Error parsing command line: %s\n"
+msgstr "解析命令行出错：%s\n"
+
+#: ../gtk/prefs.cc:900
+#, c-format
+msgid "%s %s\n"
+"\n"
+"VMware is a registered trademark or trademark (the \"Marks\") of VMware, "
+"Inc.\n"
+"in the United States and/or other jurisdictions and is not licensed to you\n"
+"under the terms of the LGPL version 2.1. If you distribute VMware View Open\n"
+"Client unmodified in either binary or source form or the accompanying\n"
+"documentation unmodified, you may not remove, change, alter or otherwise\n"
+"modify the Marks in any manner. If you make minor modifications to VMware\n"
+"View Open Client or the accompanying documentation, you may, but are not\n"
+"required to, continue to distribute the unaltered Marks with your binary or\n"
+"source distributions. If you make major functional changes to VMware View\n"
+"Open Client or the accompanying documentation, you may not distribute the\n"
+"Marks with your binary or source distribution and you must remove all\n"
+"references to the Marks contained in your distribution. All other use or\n"
+"distribution of the Marks requires the prior written consent of VMware.\n"
+"All other marks and names mentioned herein may be trademarks of their\n"
+"respective companies.\n"
+"\n"
+"Copyright © 1998-2010 VMware, Inc. All rights reserved.\n"
+"This product is protected by U.S. and international copyright and\n"
+"intellectual property laws.\n"
+"VMware software products are protected by one or more patents listed at\n"
+"%s\n"
+"\n"
+msgstr "%s %s\n"
+"\n"
+"VMware 是 VMware, Inc. 在美国和/或其他法律辖区的注册商标或商标 (“标识”)。"
+"并未依据 LGPL 2.1 版条款授权给您。如果您在不做修改的情况下以二进制或源代码格式"
+"分发 VMware View Open Client 或附带文档，您将不能以任何方式删除、更换、改变或"
+"修改这些标识。如果您对 VMware View Open Client 或附带文档进行少量修改，您可以 (但"
+"并非必须) 继续随您的二进制或源代码一起分发未改变的标识。如果您对 VMware View Open Client"
+"或附带文档进行重大的功能性修改，您将不能随您的二进制或源代码一起分发这些标识，"
+"而且您必须在分发内容中删除所有提及这些标识的地方。在其他情况下应用或分发这些标识时，"
+"需要事先得到 VMware 的书面许可。"
+"此处提及的所有其他标识和名称均为其各自公司的商标。\n"
+"\n"
+"版权所有 (C) 1998-2010 VMware, Inc.，保留所有权利。\n"
+"本产品受美国和国际版权及知识产权法律保护。\n"
+"VMware 软件产品受以下网站上列出的若干项专利保护\n"
+"%s\n"
+"\n"
+
+#. TRANSLATORS: Ignore this; we will localize with appropriate URL.
+#: ../gtk/prefs.cc:922
+msgid "http://www.vmware.com/go/patents"
+msgstr "http://www.vmware.com/go/patents-cn"
+
+#: ../gtk/prefs.cc:990
+msgid "Password: "
+msgstr "密码： "
+
+#: ../gtk/prefs.cc:1067
+#, c-format
+msgid "Unknown protocol: %s\n"
+msgstr "未知协议：%s\n"
+
+#: ../gtk/prefs.cc:1117
+msgid "Unknown"
+msgstr "未知"
+
+#: ../gtk/prefs.cc:1125
+msgid "A valid connection server name must be specified to print the environment "
+"information.\n"
+msgstr "必须指定一个有效的连接服务器名称，才能打印环境信息。\n"
+
+#: ../gtk/prefs.cc:1132
+#, c-format
+msgid "IP Address: %s\n"
+msgstr "IP 地址：%s\n"
+
+#: ../gtk/prefs.cc:1133
+#, c-format
+msgid "MAC Address: %s\n"
+msgstr "MAC 地址：%s\n"
+
+#: ../gtk/prefs.cc:1134
+#, c-format
+msgid "Machine Name: %s\n"
+msgstr "计算机名：%s\n"
+
+#: ../gtk/prefs.cc:1135
+#, c-format
+msgid "Machine Domain: %s\n"
+msgstr "计算机域：%s\n"
+
+#: ../gtk/prefs.cc:1136
+#, c-format
+msgid "Logged On User Name: %s\n"
+msgstr "登录用户名：%s\n"
+
+#: ../gtk/prefs.cc:1137
+#, c-format
+msgid "Logged On Domain Name: %s\n"
+msgstr "登录域名：%s\n"
+
+#: ../gtk/prefs.cc:1138
+#, c-format
+msgid "Time Zone: %s\n"
+msgstr "时区：%s\n"
+
+#: ../gtk/rdesktop.cc:229
+msgid "Gstreamer plugins not found"
+msgstr "未找到 Gstreamer 插件"
+
+#: ../gtk/rdesktop.cc:230
+msgid "The required GStreamer plugins could not be found. Please check that your "
+"path is set properly."
+msgstr "无法找到所需的 GStreamer 插件。请检查路径设置是否正确。"
+
+#: ../gtk/rdesktop.cc:235
+msgid "Warning"
+msgstr "警告"
+
+#: ../gtk/rmks.cc:122
+#, c-format
+msgid "An error was encountered with the remote desktop connection: %s."
+msgstr "进行远程桌面连接时遇到错误：%s。"
+
+#: ../gtk/rmks.cc:135
+msgid "\n"
+"\n"
+"You may be able to connect to this desktop by clicking cancel and selecting "
+"a different protocol."
+msgstr "\n"
+"\n"
+"您可以通过单击“取消”并选择其他协议来连接此桌面。"
+
+#: ../gtk/rmks.cc:144
+msgid "An unknown error was encountered with the remote desktop connection."
+msgstr "进行远程桌面连接时遇到一个未知错误。"
+
+#: ../gtk/rmks.cc:150
+msgid "An error occurred while connecting to the remote desktop"
+msgstr "连接远程桌面时出错"
+
+#: ../gtk/rmks.cc:198
+msgid "Warning: -K option is ignored when using PCoIP.\n"
+msgstr "警告：使用 PCoIP 时 -K 选项将被忽略。\n"
+
+#: ../gtk/scCertDetailsDlg.cc:99
+msgid "<b>This certificate has been verified for the following uses:</b>"
+msgstr "<b>此证书经验证具有以下用途：</b>"
+
+#: ../gtk/scCertDetailsDlg.cc:102
+msgid "SSL Client Certificate"
+msgstr "SSL 客户端证书"
+
+#: ../gtk/scCertDetailsDlg.cc:103
+msgid "SSL Server Certificate"
+msgstr "SSL 服务器证书"
+
+#: ../gtk/scCertDetailsDlg.cc:104
+msgid "Status Responder Certificate"
+msgstr "状态响应程序证书"
+
+#: ../gtk/scCertDetailsDlg.cc:114
+msgid "<b>Issued To</b>"
+msgstr "<b>颁发给</b>"
+
+#: ../gtk/scCertDetailsDlg.cc:125
+msgid "Serial Number:"
+msgstr "序列号："
+
+#: ../gtk/scCertDetailsDlg.cc:128
+msgid "<b>Issued By</b>"
+msgstr "<b>颁发者</b>"
+
+#: ../gtk/scCertDetailsDlg.cc:133
+msgid "<b>Validity</b>"
+msgstr "<b>有效期</b>"
+
+#: ../gtk/scCertDetailsDlg.cc:135
+msgid "Not Valid Before:"
+msgstr "此日期前无效："
+
+#: ../gtk/scCertDetailsDlg.cc:138
+msgid "Not Valid After:"
+msgstr "此日期后无效："
+
+#: ../gtk/scCertDetailsDlg.cc:141
+msgid "<b>Fingerprints</b>"
+msgstr "<b>指纹</b>"
+
+#: ../gtk/scCertDetailsDlg.cc:150
+msgid "SHA1 Fingerprint:"
+msgstr "SHA1 指纹："
+
+#: ../gtk/scCertDetailsDlg.cc:157
+msgid "MD5 Fingerprint:"
+msgstr "MD5 指纹："
+
+#.
+#. * Translators: this is just the format of a label's text; the
+#. * actual text of the label is translated elsewhere.
+#.
+#: ../gtk/scCertDetailsDlg.cc:433
+#, c-format
+msgid "%s:"
+msgstr "%s："
+
+#: ../gtk/scCertDetailsDlg.cc:472
+msgid "Common Name"
+msgstr "公用名"
+
+#: ../gtk/scCertDetailsDlg.cc:474
+msgid "Country"
+msgstr "国家"
+
+#: ../gtk/scCertDetailsDlg.cc:476
+msgid "Locality"
+msgstr "区域"
+
+#: ../gtk/scCertDetailsDlg.cc:478
+msgid "State or Province"
+msgstr "省或自治区"
+
+#: ../gtk/scCertDetailsDlg.cc:480
+msgid "Organization"
+msgstr "单位"
+
+#: ../gtk/scCertDetailsDlg.cc:482
+msgid "Organizational Unit"
+msgstr "部门"
+
+#: ../gtk/scCertDetailsDlg.cc:484
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: ../gtk/scCertDetailsDlg.cc:486
+msgid "Given Name"
+msgstr "名"
+
+#: ../gtk/scCertDetailsDlg.cc:488
+msgid "Surname"
+msgstr "姓"
+
+#: ../gtk/scCertDetailsDlg.cc:490
+msgid "Domain Component"
+msgstr "域组件"
+
+#: ../gtk/scCertDlg.cc:66
+msgid "Choo_se a certificate:"
+msgstr "选择证书(_S)："
+
+#: ../gtk/scCertDlg.cc:142
+#, c-format
+msgid "<b>%s</b>\n"
+"<span size=\"smaller\">Issued by %s</span>"
+msgstr "<b>%s</b>\n"
+"<span size=\"smaller\">颁发者：%s</span>"
+
+#: ../gtk/scInsertPromptDlg.cc:113
+msgid "A smart card has been inserted."
+msgstr "已插入智能卡。"
+
+#: ../gtk/scInsertPromptDlg.cc:114
+msgid "Insert a smart card to continue."
+msgstr "插入一张智能卡并继续。"
+
+#: ../gtk/scPinDlg.cc:75
+#: ../gtk/securIDDlg.cc:189
+msgid "_PIN:"
+msgstr "PIN(_P)："
+
+#: ../gtk/scPinDlg.cc:111
+#, c-format
+msgid "A PIN is required to log in using the token named %s."
+msgstr "需要输入 PIN 才能使用名为 %s 的令牌登录。"
+
+#: ../gtk/securIDDlg.cc:143
+msgid "Enter your RSA SecurID user name and passcode."
+msgstr "输入您的 RSA SecurID 用户名和通行码。"
+
+#: ../gtk/securIDDlg.cc:150
+msgid "_Passcode:"
+msgstr "通行码(_P)："
+
+#: ../gtk/securIDDlg.cc:159
+msgid "Wait until the next tokencode appears on your RSA SecurID token, then enter "
+"it."
+msgstr "等待下一个令牌代码出现在您的 RSA SecurID 令牌上，然后输入这个代码。"
+
+#: ../gtk/securIDDlg.cc:167
+msgid "_Tokencode:"
+msgstr "令牌代码(_T)："
+
+#: ../gtk/securIDDlg.cc:177
+msgid "Enter a new RSA SecurID PIN."
+msgstr "输入一个新的 RSA SecurID PIN。"
+
+#: ../gtk/securIDDlg.cc:179
+msgid "Enter a new RSA SecurID PIN or accept the system-generated PIN."
+msgstr "输入新的 RSA SecurID PIN 或者接受系统生成的 PIN。"
+
+#: ../gtk/securIDDlg.cc:182
+msgid "Accept the system-generated RSA SecurID PIN."
+msgstr "接受系统生成的 RSA SecurID PIN。"
+
+#: ../gtk/securIDDlg.cc:194
+msgid "Con_firm PIN:"
+msgstr "确认 PIN(_F)："
+
+#: ../gtk/window.cc:382
+msgid "_View Certificate"
+msgstr "查看证书(_V)"
+
+#: ../gtk/window.cc:947
+#: ../gtk/window.cc:975
+#: ../gtk/window.cc:1005
+msgid "_Authenticate"
+msgstr "身份验证(_A)"
+
+#: ../gtk/window.cc:1038
+msgid "_Login"
+msgstr "登录(_L)"
+
+#: ../gtk/window.cc:1111
+msgid "Ch_ange"
+msgstr "更改(_A)"
+
+#: ../gtk/window.cc:1175
+msgid "C_onnect"
+msgstr "连接(_O)"
+
+#: ../gtk/window.cc:1423
+msgid "Reconnecting to desktop..."
+msgstr "正在重新连接到桌面..."
+
+#: ../gtk/window.cc:1482
+msgid "PIN Warning"
+msgstr "PIN 警告"
+
+#: ../gtk/window.cc:1484
+msgid "PIN Error"
+msgstr "PIN 错误"
+
+#: ../gtk/window.cc:1517
+msgid "Submitting passcode..."
+msgstr "正在提交通行码..."
+
+#: ../gtk/window.cc:1544
+msgid "Submitting tokencode..."
+msgstr "正在提交令牌代码..."
+
+#: ../gtk/window.cc:1575
+msgid "PIN Mismatch"
+msgstr "PIN 不匹配"
+
+#: ../gtk/window.cc:1576
+msgid "The PINs you entered do not match. Please try again."
+msgstr "您输入的 PIN 不匹配。请重试。"
+
+#: ../gtk/window.cc:1652
+msgid "Password Mismatch"
+msgstr "密码不匹配"
+
+#: ../gtk/window.cc:1653
+msgid "The passwords you entered do not match. Please try again."
+msgstr "您输入的密码不匹配。请重试。"
+
+#: ../gtk/window.cc:1751
+#, c-format
+msgid "\n"
+"\n"
+"Reason: %s."
+msgstr "\n"
+"\n"
+"原因是：%s。"
+
+#: ../gtk/window.cc:1755
+msgid "Tunnel Disconnected"
+msgstr "安全加密链路已断开"
+
+#: ../gtk/window.cc:1859
+#, c-format
+msgid "Unable to load image '%s': %s\n"
+msgstr "无法加载图像“%s”：%s\n"
+
+#: ../gtk/window.cc:2011
+#, c-format
+msgid "Unable to load background image '%s': %s\n"
+msgstr "无法加载背景图像“%s”：%s\n"
+
+#: ../gtk/window.cc:2467
+msgid "_Retry"
+msgstr "重试(_R)"
+
+#: ../gtk/window.cc:2561
+msgid "Loading desktops..."
+msgstr "正在加载桌面..."
+
+#: ../gtk/window.cc:2743
+#, c-format
+msgid "You are connected to %s.\n"
+"\n"
+"If this desktop is unresponsive, click Disconnect."
+msgstr "您已连接到 %s。\n"
+"\n"
+"如果此桌面没有响应，请单击“断开”。"
+
+#: ../gtk/window.cc:2765
+msgid "Send C_trl-Alt-Del"
+msgstr "发送 Ctrl-Alt-Del(_T)"
+
+#: ../gtk/window.cc:2766
+msgid "_Disconnect"
+msgstr "断开(_D)"
+
+#: ../gtk/window.cc:2875
+msgid "Disconnected"
+msgstr "连接断开"
+
+#: ../gtk/window.cc:2961
+msgid "Not Connected"
+msgstr "未连接"
+
+#: ../gtk/window.cc:3097
+msgid "You have been logged out"
+msgstr "您已注销"
+
+#: ../gtk/window.cc:3098
+msgid "Your smart card or token was removed, so you have been logged out of the "
+"View Connection Server."
+msgstr "您的智能卡令牌已被移除，因此您已从 View Connection Server 中注销。"
+
+#: ../gtk/windowSizeDlg.cc:66
+msgid "_Select"
+msgstr "选择(_S)"
+
+#: ../gtk/windowSizeDlg.cc:79
+msgid "Select a window size:"
+msgstr "选择一个窗口大小："
+
+#: ../gtk/windowSizeDlg.cc:96
+msgid "Small"
+msgstr "小尺寸"
+
+#: ../gtk/windowSizeDlg.cc:104
+msgid "Large"
+msgstr "大尺寸"
+
+#: ../protocols.cc:38
+msgid "Microsoft RDP"
+msgstr "Microsoft RDP"
+
+#: ../protocols.cc:39
+msgid "Microsoft _RDP"
+msgstr "Microsoft RDP(_R)"
+
+#: ../protocols.cc:42
+msgid "HP RGS"
+msgstr "HP RGS"
+
+#: ../protocols.cc:43
+msgid "HP R_GS"
+msgstr "HP RGS(_G)"
+
+#: ../protocols.cc:46
+msgid "PCoIP"
+msgstr "PCoIP"
+
+#: ../protocols.cc:47
+msgid "_PCoIP"
+msgstr "PCoIP(_P)"
+
+#: ../protocols.cc:50
+msgid "Local"
+msgstr "本地"
+
+#: ../protocols.cc:51
+msgid "_Local"
+msgstr "本地(_L)"
+
+#: ../protocols.cc:115
+#: ../protocols.cc:178
+msgid "Unknown Protocol"
+msgstr "未知协议"
+
+#: ../protocols.cc:126
+#: ../protocols.cc:189
+msgid "Invalid Protocol"
+msgstr "无效协议"
+
+#: ../protocols.cc:152
+#: ../protocols.cc:215
+#, c-format
+msgid "Unknown Protocol (%s)"
+msgstr "未知协议 (%s)"
+
+#: ../tunnel.cc:161
+msgid "Could not find secure tunnel executable.\n"
+msgstr "无法找到安全加密链路可执行文件。\n"
+
+#: ../tunnel.cc:243
+msgid "Message from View Server"
+msgstr "View Server 的消息"
+
+#: ../tunnel.cc:248
+msgid "Error from View Connection Server"
+msgstr "View Connection Server 中的错误"
+
+#: ../tunnel.cc:252
+#, c-format
+msgid "Couldn't resolve tunnel address '%s'"
+msgstr "无法解析安全加密链路地址“%s”"
+
+#: ../usb.cc:117
+#, c-format
+msgid "%s was not found; disabling USB redirection.\n"
+msgstr "未找到 %s；正在禁用 USB 重定向。\n"
+
+#: ../util.cc:1186
+#, c-format
+msgid "File '%s' could not be created: %s\n"
+msgstr "无法创建文件“%s”：%s\n"
+
+#: ../util.cc:1190
+#, c-format
+msgid "Could not change mode of file '%s': %s\n"
+msgstr "无法更改文件“%s”的模式：%s\n"
